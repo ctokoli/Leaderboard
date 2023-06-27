@@ -12,12 +12,11 @@ module.exports = {
     static: {
       directory: path.resolve(__dirname, 'dist'),
     },
-    watchFiles: ["src/*.html"],
+    watchFiles: ['src/*.html'],
     open: true,
     hot: true,
     compress: true,
     historyApiFallback: true,
-    
   },
   module: {
     rules: [{
@@ -36,7 +35,7 @@ module.exports = {
     },
     {
       test: /\.html$/,
-      loader: 'html-loader'
+      loader: 'html-loader',
     },
     ],
   },
