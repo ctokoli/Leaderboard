@@ -1,11 +1,11 @@
-body{
-background: rgb(249,120,15);
-background: linear-gradient(343deg, rgba(249,120,15,1) 0%, rgba(218,28,96,1) 100%);
-background-repeat: no-repeat;
-height: 100vh;
-color: #484848;
-font-family: 'Lato', sans-serif;
-font-family: 'Roboto', sans-serif;
+body {
+  background: rgb(249, 120, 15);
+  background: linear-gradient(343deg, rgba(249, 120, 15, 1) 0%, rgba(218, 28, 96, 1) 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #484848;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -35,20 +35,19 @@ form {
 .refresh {
   height: 24px;
   margin-left: 20px;
-  
 }
 
-.btn{
+.btn {
   background: #da1c60;
   font-size: 14px;
-    border: none;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 25px;
-    padding-right: 10px;
-    padding-left: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 input[type="text"] {
@@ -73,7 +72,6 @@ td {
   padding-bottom: 5px;
   padding-left: 8px;
 }
-
 
 tr:nth-child(odd) {
   background-color: #f1ded0;
