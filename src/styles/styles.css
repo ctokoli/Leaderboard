@@ -45,6 +45,7 @@ form {
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 input[type="text"] {
