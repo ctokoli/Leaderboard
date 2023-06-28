@@ -4,6 +4,8 @@ background: linear-gradient(343deg, rgba(249,120,15,1) 0%, rgba(218,28,96,1) 100
 background-repeat: no-repeat;
 height: 100vh;
 color: #484848;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -78,7 +80,7 @@ tr:nth-child(odd) {
 }
 
 header {
-  margin-left: 105px;
+  margin-left: 98px;
 }
 
 table {
