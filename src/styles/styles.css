@@ -3,6 +3,7 @@ background: rgb(249,120,15);
 background: linear-gradient(343deg, rgba(249,120,15,1) 0%, rgba(218,28,96,1) 100%);
 background-repeat: no-repeat;
 height: 100vh;
+color: #484848;
 }
 
 main {
@@ -66,7 +67,9 @@ input[type="text"] {
 }
 
 td {
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
 }
 
 
