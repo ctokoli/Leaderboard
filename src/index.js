@@ -1,4 +1,6 @@
 import './styles/styles.css';
-import fetchData from './modules/fetchData.js';
+import renderData from './modules/renderData.js';
+import postData from './modules/postData.js';
 
-fetchData();
+renderData();
+postData();
