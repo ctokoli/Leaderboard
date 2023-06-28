@@ -1,0 +1,62 @@
+
+main {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+}
+
+.refresh {
+  height: 24px;
+  margin-left: 20px;
+}
+
+input[type="text"] {
+  height: 26px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.submit {
+  height: 24px;
+  width: 90px;
+  position: relative;
+  left: 118px;
+}
+
+.table {
+  border: 1px solid black;
+}
+
+td {
+  padding-bottom: 10px;
+}
+
+.tdback {
+  background-color: grey;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+header {
+  margin-left: 105px;
+}
+
+table {
+  width: 100%;
+}
