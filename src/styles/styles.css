@@ -1,7 +1,17 @@
+body{
+background: rgb(249,120,15);
+background: linear-gradient(343deg, rgba(249,120,15,1) 0%, rgba(218,28,96,1) 100%);
+background-repeat: no-repeat;
+height: 100vh;
+}
 
 main {
   width: 900px;
   margin: 0 auto;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 30px;
 }
 
 .content {
@@ -45,12 +55,9 @@ td {
   padding-bottom: 10px;
 }
 
-.tdback {
-  background-color: grey;
-}
 
 tr:nth-child(odd) {
-  background-color: #f2f2f2;
+  background-color: #c3c3c3;
 }
 
 header {
