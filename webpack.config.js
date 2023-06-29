@@ -5,12 +5,12 @@ module.exports = {
   mode: 'development',
   entry: path.resolve(__dirname, 'src/index.js'),
   output: {
-    path: path.resolve(__dirname, 'doc'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js',
   },
   devServer: {
     static: {
-      directory: path.resolve(__dirname, 'doc'),
+      directory: path.resolve(__dirname, 'docs'),
     },
     watchFiles: ['src/*.html'],
     open: true,
