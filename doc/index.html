@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+<script defer src="bundle.js"></script></head>
+<body>
+    <main>
+       <header>
+        <h1>Leaderboard</h1>
+       </header>
+        <div class="content">
+            <div>
+                <div class="head">
+                    <h1>Recent Scores</h1>
+                    <button class="refresh btn">Refresh</button>
+                </div>
+                <div>
+                    <table class="table">
+                      
+                    </table>
+                </div>
+            </div>
+            <div class="scores">
+                <h1>Add Your Score</h1>
+                <form id="form">
+                    <input type="text" placeholder="Name" id="name">
+                    <input type="text" placeholder="Scores" id="score">
+                    <button type="submit" class="submit btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
