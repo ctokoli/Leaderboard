@@ -87,7 +87,7 @@ https://github.com/ctokoli/Leaderboard.git
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd Hello Microverse``**
+**``you@your-Pc-name:~$ cd Leaderboard``**
 
 ### Install
 
@@ -102,7 +102,7 @@ npm install
 To run the project, follow these instructions:
 
 - After Cloning this repo to your local machine.
-- Open the `index.html` in your browser.
+- Open the `index.html` from the doc directory in your browser.
 
 ### Run tests
 
