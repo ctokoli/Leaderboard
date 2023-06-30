@@ -86,3 +86,11 @@ table {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+}
+
