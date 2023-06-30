@@ -15,6 +15,7 @@ main {
   border-radius: 20px;
   padding: 30px;
   margin-top: 30px;
+  box-shadow: 1px 1px 10px 0 grey;
 }
 
 .content {
@@ -51,9 +52,12 @@ form {
 }
 
 input[type="text"] {
-  height: 26px;
-  margin-bottom: 10px;
+  font-size: 16px;
+  height: 40px;
+  margin-bottom: 18px;
   padding-left: 10px;
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
 }
 
 .submit {
@@ -64,7 +68,9 @@ input[type="text"] {
 }
 
 .table {
-  border: 1px solid black;
+  border: 1px solid #c8c8c8;
+  border-radius: 7px;
+  padding: 1px;
 }
 
 td {
@@ -83,4 +89,24 @@ header {
 
 table {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .submit {
+    left: 221px;
+  }
+
+  main {
+    width: 313px;
+  }
+
+  header {
+    margin-left: 0;
+  }
 }
