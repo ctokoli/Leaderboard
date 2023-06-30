@@ -93,16 +93,17 @@ table {
     flex-direction: column;
 }
 
-.table-parent {
-  width: 35.5%;
-}
-
-#form {
-  width: 35.5%;
-}
 
 .submit {
   left: 221px;
+}
+
+main {
+  width: 313px;
+}
+
+header {
+   margin-left: 0; 
 }
 
 }
