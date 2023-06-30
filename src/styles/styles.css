@@ -92,5 +92,10 @@ table {
     justify-content: space-around;
     flex-direction: column;
 }
+
+.table-parent {
+  width: 35.5%;
+}
+
 }
 
