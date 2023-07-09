@@ -4,7 +4,7 @@ const fetchData = async () => {
   try {
     const data = await fetch(url);
     const response = await data.json();
-    result = response.result;
+    result = response;
   } catch (error) {
     return error;
   }

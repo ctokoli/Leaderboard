@@ -26,7 +26,7 @@
 
 # 📖 Leaderboard Project <a name="about-project"></a>
 
- This is a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I consume the Leaderboard API using JavaScript async and await and some styling.  
+ This is a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I consume the Leaderboard API using JavaScript async and await and UI some styling.  
 
 
 
